@@ -101,7 +101,7 @@ class TransactionController extends Controller
                 ->where('transaction_type', 'withdrawal')
                 ->sum('amount');
 
-            if ($totalWithdrawal >= 50000) {
+            if (($totalWithdrawal+$amount) >= 50000) {
                 $withdrawalFee = $amount * 0.015;
             } else {
                 $withdrawalFee = $amount * 0.025;

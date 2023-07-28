@@ -70,6 +70,7 @@ Step 8: Access the Application
 Congratulations! You have successfully downloaded, set up, and run the Laravel project from GitHub. Enjoy exploring and developing with your new Laravel application!
 
 Please Note:
+- If you are running on the local machine, then you must install the XAMPP first.
 - Make sure to install all the necessary PHP extensions and dependencies required by your Laravel project.
 - The steps provided assume a development environment; for production deployment, additional configurations and security measures may be required.
 - Ensure to keep your `.env` file secure and not expose sensitive information when deploying to a live server.
